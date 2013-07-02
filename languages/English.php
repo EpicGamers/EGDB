@@ -97,16 +97,16 @@ define("EGDB_CORE_16", "not valid sector name"); ##### NEW!
 define("EGDB_CORE_17", "Please correct and re-submit."); ##### NEW!
 
 // module help.php
-define("EGDB_ADMIN_HELP_00", "YourFirstPlugin Help");
-define("EGDB_ADMIN_HELP_01", "General Preferences");
-define("EGDB_ADMIN_HELP_02", "Manage your YourFirstPlugin settings.");
-define("EGDB_ADMIN_HELP_03", "Maintain Categories");
-define("EGDB_ADMIN_HELP_04", "Maintain your YourFirstPlugin categories");
-define("EGDB_ADMIN_HELP_05", "Add/Edit/Delete Items");
+define("EGDB_ADMIN_HELP_00", "EGDB Help");
+define("EGDB_ADMIN_HELP_01", "Menu 1");
+define("EGDB_ADMIN_HELP_02", "edit me");
+define("EGDB_ADMIN_HELP_03", "Menu 2");
+define("EGDB_ADMIN_HELP_04", "edit me");
+define("EGDB_ADMIN_HELP_05", "Item Maintenance");
 define("EGDB_ADMIN_HELP_06", "Maintain the items in the database");
 define("EGDB_ADMIN_HELP_07", "Export List to PDF file");
 define("EGDB_ADMIN_HELP_08", "Copy the item list contents to a printable PDF file");
 define("EGDB_ADMIN_HELP_09", "ReadMe.txt");  // Also used in admin_readme.php
-define("EGDB_ADMIN_HELP_10", "View the Readme text file for detailed release information and version history.<br/><br/>For additional help on this plugin view the <a href='http://wiki.e107.org/?title=YourFirstPlugin'>e107 Wiki pages</a>.");
+define("EGDB_ADMIN_HELP_10", "View the read me for additional information about the item database");
 define("EGDB_ADMIN_HELP_99", "readme.txt"); // Actual helpfile called by admin_readme.php to allow for multi-langual helpfiles
 ?>
