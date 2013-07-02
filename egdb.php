@@ -8,8 +8,6 @@
 |
 |	The main function of this item database is to have loot locations, not 
 |	so much the item details.
-|
-|----  Haviland - can the text size of the categories be 12px? I tried but only the active sort is the right text size.
 +-----------------------------------------------------------------------------*/
 
 // class2.php is the heart of e107, always include it first to give access to e107 constants and variables
