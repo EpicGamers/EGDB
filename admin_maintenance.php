@@ -25,7 +25,7 @@ require_once(e_ADMIN.'auth.php');
 // Get language file (assume that the English language file is always present)
 include_lan(e_PLUGIN.'EGDB/languages/'.e_LANGUAGE.'.php');
 // Set the active menu option for admin_menu.php
-$pageid = 'admin_menu_01';
+$pageid = 'admin_menu_02';
 
 // Define variable $text
 $text = "This page will allow an assigned class to edit the database entries, or remove old ones. This page would be similar to the search page, but can also see who contributed and when. The admin class CANNOT edit who contributed or when it was added. The admin class should be able to PM the contribuitor if needed with the PM being prefilledish out.";

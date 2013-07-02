@@ -33,17 +33,17 @@ global $pageid;
 
 $action = basename($_SERVER['PHP_SELF'], '.php');
 
-$var['admin_menu_01']['text'] = EGDB_MENU_01;
-$var['admin_menu_01']['link'] = 'admin_config.php';
+$var['admin_menu_01']['text'] = EGDB_MENU_01; // Home page of the admin screen
+$var['admin_menu_01']['link'] = 'admin_stats.php'; 
 
-$var['admin_menu_02']['text'] = EGDB_MENU_02;
-$var['admin_menu_02']['link'] = 'admin_categories.php';
+$var['admin_menu_02']['text'] = EGDB_MENU_02; // screen used to add/edit/remove entries
+$var['admin_menu_02']['link'] = 'admin_maintenance.php';
 
-$var['admin_menu_03']['text'] = EGDB_MENU_03;
-$var['admin_menu_03']['link'] = 'admin_egdb.php';
+$var['admin_menu_03']['text'] = EGDB_MENU_03; // export to pdf when ready
+$var['admin_menu_03']['link'] = '';// removed link till file is implemented. admin_egdb_pdf.php
 
-$var['admin_menu_04']['text'] = EGDB_MENU_04;
-$var['admin_menu_04']['link'] = 'admin_egdb_pdf.php';
+//$var['admin_menu_04']['text'] = EGDB_MENU_04; <---- Future use
+//$var['admin_menu_04']['link'] = '';
 
 // Put the readme.txt at the end of the list
 $var['admin_menu_09']['text'] = EGDB_MENU_09;

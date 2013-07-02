@@ -23,10 +23,10 @@ define("EGDB_DONE3","Thank you for upgrading to"); // Plugin version will be add
 
 // module admin_menu.php
 define("EGDB_MENU_00", "EGDB Options");
-define("EGDB_MENU_01", "EGDB Settings");
-define("EGDB_MENU_02", "Maintain Categories");
-define("EGDB_MENU_03", "Add/Edit/Delete Items");
-define("EGDB_MENU_04", "Export List to PDF file");
+define("EGDB_MENU_01", "EGDB Information");
+define("EGDB_MENU_02", "Database Maintenance");
+define("EGDB_MENU_03", "Export List to PDF file");
+define("EGDB_MENU_04", "*");
 define("EGDB_MENU_05", "*");
 define("EGDB_MENU_06", "*");
 define("EGDB_MENU_07", "*");
@@ -47,33 +47,33 @@ define("EGDB_CONF_09", "Test Field Integer");
 define("EGDB_CONF_10", "Apply Changes");
 define("EGDB_CONF_11", "Your settings have been saved.");
 
-// module admin_categories.php ( removed colons! )
-define("EGDB_CAT_00", "Maintain Categories");
-define("EGDB_CAT_01", "Maintain YourFirstPlugin Categories");
-define("EGDB_CAT_02", "No categories defined");
-define("EGDB_CAT_03", "Enter new item");
-define("EGDB_CAT_04", "EGDB Enter New Item");
-define("EGDB_CAT_05", "Item Name");
-define("EGDB_CAT_06", "Item Catagory");
-define("EGDB_CAT_07", "#");
-define("EGDB_CAT_08", "Item Level");
-define("EGDB_CAT_09", "MOB Name");
-define("EGDB_CAT_10", "MOB Level");
-define("EGDB_CAT_11", "MOB Sector");
-define("EGDB_CAT_12", "MOB Area or Coords.");
-define("EGDB_CAT_13", "#");
-define("EGDB_CAT_14", "Sort Order");
-define("EGDB_CAT_15", "Active");
-define("EGDB_CAT_16", "Actions");
-define("EGDB_CAT_17", "Change Category");
-define("EGDB_CAT_18", "Edit");
-define("EGDB_CAT_19", "Delete");
+// module admin_maintenance.php)
+define("EGDB_CAT_00", "Item Database Maintenance");
+define("EGDB_CAT_01", "*");
+define("EGDB_CAT_02", "*");
+define("EGDB_CAT_03", "*");
+define("EGDB_CAT_04", "*");
+define("EGDB_CAT_05", "*");
+define("EGDB_CAT_06", "*");
+define("EGDB_CAT_07", "*");
+define("EGDB_CAT_08", "*");
+define("EGDB_CAT_09", "*");
+define("EGDB_CAT_10", "*");
+define("EGDB_CAT_11", "*");
+define("EGDB_CAT_12", "*");
+define("EGDB_CAT_13", "*");
+define("EGDB_CAT_14", "*");
+define("EGDB_CAT_15", "*");
+define("EGDB_CAT_16", "*");
+define("EGDB_CAT_17", "*");
+define("EGDB_CAT_18", "*");
+define("EGDB_CAT_19", "*");
 
-// module admin_categories_edit.php
-define("EGDB_CATEDIT_01", "Delete Category");
-define("EGDB_CATEDIT_02", "Are you sure you want to delete this category?");
-define("EGDB_CATEDIT_03", "Yes");
-define("EGDB_CATEDIT_04", "No");
+// module admin_stats.php
+define("EGDB_STATS_00", "Item Database Information");
+define("EGDB_STATS_01", "*");
+define("EGDB_STATS_02", "*");
+define("EGDB_STATS_03", "*");
 
 // module egdb.php
 define("EGDB_CORE_00", "EGDB Main Module");
@@ -98,15 +98,15 @@ define("EGDB_CORE_17", "Please correct and re-submit."); ##### NEW!
 
 // module help.php
 define("EGDB_ADMIN_HELP_00", "EGDB Help");
-define("EGDB_ADMIN_HELP_01", "Menu 1");
-define("EGDB_ADMIN_HELP_02", "edit me in english.php admin_help");
-define("EGDB_ADMIN_HELP_03", "Menu 2");
-define("EGDB_ADMIN_HELP_04", "edit me");
-define("EGDB_ADMIN_HELP_05", "Item Maintenance");
-define("EGDB_ADMIN_HELP_06", "Maintain the items in the database");
-define("EGDB_ADMIN_HELP_07", "Export List to PDF file");
-define("EGDB_ADMIN_HELP_08", "Copy the item list contents to a printable PDF file");
+define("EGDB_ADMIN_HELP_01", "Information");
+define("EGDB_ADMIN_HELP_02", "shows basic information about the item database");
+define("EGDB_ADMIN_HELP_03", "Item Maintenance");
+define("EGDB_ADMIN_HELP_04", "Remove, update, and add entries to the database");
+define("EGDB_ADMIN_HELP_05", "Export List to PDF file");
+define("EGDB_ADMIN_HELP_06", "Copy the item list contents to a printable PDF file");
+define("EGDB_ADMIN_HELP_07", "");
+define("EGDB_ADMIN_HELP_08", "");
 define("EGDB_ADMIN_HELP_09", "ReadMe.txt");  // Also used in admin_readme.php
-define("EGDB_ADMIN_HELP_10", "View the read me for additional information about the item database");
+define("EGDB_ADMIN_HELP_10", "View the read me for additional information about the item database.");
 define("EGDB_ADMIN_HELP_99", "readme.txt"); // Actual helpfile called by admin_readme.php to allow for multi-langual helpfiles
 ?>

@@ -26,11 +26,12 @@ require_once(e_ADMIN.'auth.php');
 
 // Get language file (assume that the English language file is always present)
 include_lan(e_PLUGIN.'EGDB/languages/'.e_LANGUAGE.'.php');
-// Set the active menu option for admin_menu.php
-$pageid = 'admin_menu_03';
 
+// Set the active menu option for admin_menu.php
+$pageid = 'admin_menu_01';
+//========================================== Begin Page ===================================================
 $text='This section will contain information such as how many items are in the database, the most recently added items added with dates, the oldest few items to recheck, and who the top contribuior is.';
-$title='Item Database Stats';
+$title= EGDB_STATS_00;
 $ns->tablerender($title,$text);
 require_once(e_ADMIN.'footer.php');
 ?>
