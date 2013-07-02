@@ -99,7 +99,7 @@ define("EGDB_CORE_17", "Please correct and re-submit."); ##### NEW!
 // module help.php
 define("EGDB_ADMIN_HELP_00", "EGDB Help");
 define("EGDB_ADMIN_HELP_01", "Menu 1");
-define("EGDB_ADMIN_HELP_02", "edit me");
+define("EGDB_ADMIN_HELP_02", "edit me in english.php admin_help");
 define("EGDB_ADMIN_HELP_03", "Menu 2");
 define("EGDB_ADMIN_HELP_04", "edit me");
 define("EGDB_ADMIN_HELP_05", "Item Maintenance");
