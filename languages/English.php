@@ -95,6 +95,13 @@ define("EGDB_CORE_14", "mob name too short"); ##### NEW!
 define("EGDB_CORE_15", "not valid mob level"); ##### NEW!
 define("EGDB_CORE_16", "not valid sector name"); ##### NEW!
 define("EGDB_CORE_17", "Please correct and re-submit."); ##### NEW!
+define("EGDB_CORE_18", "Item Name"); ##### NEW!
+define("EGDB_CORE_19", "Type"); ##### NEW!
+define("EGDB_CORE_20", "Level"); ##### NEW!
+define("EGDB_CORE_21", "MOB Name"); ##### NEW!
+define("EGDB_CORE_22", "Level"); ##### NEW!
+define("EGDB_CORE_23", "Sector"); ##### NEW!
+define("EGDB_CORE_24", "Area"); ##### NEW! Future use
 
 // module help.php
 define("EGDB_ADMIN_HELP_00", "EGDB Help");

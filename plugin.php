@@ -1,7 +1,7 @@
 <?php
 /*
 +------------------------------------------------------------------------------+
-|-- General set-up of e107 plugin to tell e107 Plugin Manager where files reside, which logo to use, etc.
+|-- Setup file for the Epic Gamers Item Database
 +------------------------------------------------------------------------------+
 */
 // If e107 is not running we won't run this plugin program
@@ -47,7 +47,8 @@ $eplug_prefs = array(
 
 // List of table names ---------------------------------------------------------
 $eplug_table_names = array(
-    "egdb"
+    "egdb",
+	"egdb_sectors"
 );
 
 // List of sql requests to create tables ---------------------------------------
@@ -58,7 +59,7 @@ $eplug_tables = array(
 	`egdb_item_name` varchar(255) NOT NULL default '',
 	`egdb_item_type` varchar(255) NOT NULL default '',
 	`egdb_item_level` int(10) NOT NULL default '0',
-	`egdb_mob_name` varchar(30) NOT NULL default '',
+	`egdb_mob_name` varchar(30) NOT NULL default '',      
 	`egdb_mob_level` int(10) NOT NULL default '0',
 	`egdb_mob_sector` varchar(30) NOT NULL default '',
 	`egdb_mob_x` int(10) NOT NULL default '0',

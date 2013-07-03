@@ -1,14 +1,14 @@
 <?php
 /*
 +------------------------------------------------------------------------------+
-|     YourFirstPlugin - a plugin skeleton by nlstart
 |
-|	Plugin Support Site: e107.webstartinternet.com
+|	This file shows information about the db itself and serves as the home page 
+|	for admins. It gives a quick over view of the most recently added items,
+|	older items that should be reverified, and who is the top contributor.
 |
-|	For the e107 website system visit http://e107.org
 |
-|	Released under the terms and conditions of the
-|	GNU General Public License (http://gnu.org).
+|
+|
 +------------------------------------------------------------------------------+
 */
 // Ensure this program is loaded in admin theme before calling class2
@@ -30,7 +30,10 @@ include_lan(e_PLUGIN.'EGDB/languages/'.e_LANGUAGE.'.php');
 // Set the active menu option for admin_menu.php
 $pageid = 'admin_menu_01';
 //========================================== Begin Page ===================================================
-$text='This section will contain information such as how many items are in the database, the most recently added items added with dates, the oldest few items to recheck, and who the top contribuior is.';
+
+$text='';
+
+
 $title= EGDB_STATS_00;
 $ns->tablerender($title,$text);
 require_once(e_ADMIN.'footer.php');

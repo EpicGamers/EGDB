@@ -135,11 +135,11 @@ if (isset($sf)) { // we could test in here for admin priviledges if needed
 /// "<div style='margin-left:auto; margin-right:auto; width:auto; '>".
     "<center><table border='0' width='100%'><tr>";
    if ($oops) { $text .= "<td style='color:red; text-align:center;' colspan='2'>$msg</td></tr><tr>"; }
-   $text .= "<td style='text-align:right;' ><b>".EGDB_CAT_05."</b>: &nbsp; </td>".
+   $text .= "<td style='text-align:right;' ><b>".EGDB_CORE_18."</b>: &nbsp; </td>".
     "<td style='padding:5px;' ><input class='tbox' size='25' type='text' name='egdb_item_name";
    if (isset($INam)) $text .= "' value='".$INam;
    $text .= "'' /></td></tr><tr>".
-    "<td style='text-align:right;' ><b>".EGDB_CAT_06."</b>: &nbsp; </td>".
+    "<td style='text-align:right;' ><b>".EGDB_CORE_19."</b>: &nbsp; </td>".
     "<td style='padding:5px;' ><select name='egdb_item_type'><option value='default'>Select Type</option>";
    ##### FUTURE: Need to read from DB and insert here
    foreach ($A_ITyp as $v) {
@@ -148,23 +148,23 @@ if (isset($sf)) { // we could test in here for admin priviledges if needed
      $text .= "'>".$v."</option>";
    }
    $text .= "</select></td></tr><tr>".
-    "<td style='text-align:right;' ><b>".EGDB_CAT_08." (1-9)</b>: &nbsp; </td>".
+    "<td style='text-align:right;' ><b>".EGDB_CORE_20." (1-9)</b>: &nbsp; </td>".
     "<td style='padding:5px;' ><input type='number' name='egdb_item_level' min='1' max='9";
    if (isset($ILvl)) $text .= "' value='".$ILvl;
    $text .= "' /></td></tr><tr>".
-    "<td style='text-align:right;' ><b>".EGDB_CAT_09."</b>: &nbsp; </td>".
+    "<td style='text-align:right;' ><b>".EGDB_CORE_21."</b>: &nbsp; </td>".
     "<td style='padding:5px;' ><input class='tbox' size='25' type='text' name='egdb_mob_name";
    if (isset($MNam)) $text .= "' value='".$MNam;
    $text .= "'' /></td></tr><tr>".
-    "<td style='text-align:right;' ><b>".EGDB_CAT_10." (0-70)</b>: &nbsp; </td>".
+    "<td style='text-align:right;' ><b>".EGDB_CORE_22." (0-70)</b>: &nbsp; </td>".
     "<td style='padding:5px;' ><input type='number' name='egdb_mob_level' min='0' max='70";
    if (isset($MLvl)) $text .= "' value='".$MLvl;
    $text .= "'' /></td></tr><tr>".
-    "<td style='text-align:right;' ><b>".EGDB_CAT_11."</b>: &nbsp; </td>".
+    "<td style='text-align:right;' ><b>".EGDB_CORE_23."</b>: &nbsp; </td>".
     "<td style='padding:5px;' ><input class='tbox' size='25' type='text' name='egdb_mob_sector";
    if (isset($MSec)) $text .= "' value='".$MSec;
    $text .= "'' /></td></tr><tr>".
-    "<td style='text-align:right;' ><b>".EGDB_CAT_12."</b>: &nbsp; </td>".
+    "<td style='text-align:right;' ><b>".EGDB_CORE_24."</b>: &nbsp; </td>".
     "<td style='padding:5px;' ><input class='tbox' size='25' type='text' name='egdb_mob_area' /></td>".
     "</tr><tr><td style='text-align:center; ' colspan='2'>".
     "<input class='button' type='submit' name='donow' value='".EGDB_CORE_03."' />".
@@ -182,22 +182,22 @@ if (isset($sf)) { // we could test in here for admin priviledges if needed
   EGDB_CORE_09."<br /><table class='fborder'><tr>".
   "<td class='fcaption' style='width:20%; text-align:center;'>";
  if ($sorted==1) { $text .= "<span style='color:cyan; font-size:16px'>Item Name</span>"; }
-  else { $text .= "<input class='button' type='submit' name='donow' value='".EGDB_CAT_05."' />"; }
+  else { $text .= "<input class='button' type='submit' name='donow' value='".EGDB_CORE_18."' />"; }
  $text .= "</td><td class='fcaption' style='width:10%; text-align:center;'>";
  if ($sorted==2) { $text .= "<span style='color:cyan; font-size:16px'>Type</span>"; }
-  else { $text .= "<input class='button' type='submit' name='donow' value='".EGDB_CAT_06."' />"; }
+  else { $text .= "<input class='button' type='submit' name='donow' value='".EGDB_CORE_19."' />"; }
  $text .= "</td></td><td class='fcaption' style='width:4%; text-align:center;'>";
  if ($sorted==3) { $text .= "<span style='color:cyan; font-size:16px'>Level</span>"; }
-  else { $text .= "<input class='button' type='submit' name='donow' value='".EGDB_CAT_08."' />"; }
+  else { $text .= "<input class='button' type='submit' name='donow' value='".EGDB_CORE_20."' />"; }
  $text .= "</td><td class='fcaption' style='width:20%; text-align:center;'>";
  if ($sorted==4) { $text .= "<span style='color:cyan; font-size:16px'>Mob Name</span>"; }
-  else { $text .= "<input class='button' type='submit' name='donow' value='".EGDB_CAT_09."' />"; }
+  else { $text .= "<input class='button' type='submit' name='donow' value='".EGDB_CORE_21."' />"; }
  $text .= "</td><td class='fcaption' style='width:8%; text-align:center;'>";
  if ($sorted==5) { $text .= "<span style='color:cyan; font-size:16px'>Mob Level</span>"; }
-  else { $text .= "<input class='button' type='submit' name='donow' value='".EGDB_CAT_10."' />"; }
+  else { $text .= "<input class='button' type='submit' name='donow' value='".EGDB_CORE_22."' />"; }
  $text .= "</td><td class='fcaption' style='width:20%; text-align:center;'>";
  if ($sorted==6) { $text .= "<span style='color:cyan; font-size:16px'>Mob Sector</span>"; }
-  else { $text .= "<input class='button' type='submit' name='donow' value='".EGDB_CAT_11."' />"; }
+  else { $text .= "<input class='button' type='submit' name='donow' value='".EGDB_CORE_23."' />"; }
  $text .= "</td><td class='fcaption' style='width:18%; text-align:center;'>Area / Coords.</td>".
   "</tr>\r\n";
  $num_categories = $sql -> db_Count("egdb", "(*)", "WHERE egdb_id");
