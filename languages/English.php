@@ -21,6 +21,17 @@ define("EGDB_DONE1", "Installation ");
 define("EGDB_DONE2", "successful...");
 define("EGDB_DONE3","Thank you for upgrading to"); // Plugin version will be added automatically
 
+//module item_submit.php
+define("EGDB_SUBMIT_1", "Item submission");
+define("EGDB_SUBMIT_2", "Item Name");
+define("EGDB_SUBMIT_3", "Item Type");
+define("EGDB_SUBMIT_4", "Item Level");
+define("EGDB_SUBMIT_5", "MOB Name");
+define("EGDB_SUBMIT_6", "MOB Level");
+define("EGDB_SUBMIT_7", "MOB Sector");
+define("EGDB_SUBMIT_8", "MOB Area/cords");
+define("EGDB_SUBMIT_9", "Add Item");
+
 // module admin_menu.php
 define("EGDB_MENU_00", "EGDB Options");
 define("EGDB_MENU_01", "EGDB Information");
@@ -71,9 +82,10 @@ define("EGDB_CAT_19", "*");
 
 // module admin_stats.php
 define("EGDB_STATS_00", "Item Database Information");
-define("EGDB_STATS_01", "*");
-define("EGDB_STATS_02", "*");
-define("EGDB_STATS_03", "*");
+define("EGDB_STATS_01", "Newest Entries");
+define("EGDB_STATS_02", "Drop's to be reverified");
+define("EGDB_STATS_03", "Number of items in db");
+define("EGDB_STATS_04", "Top Contributor");
 
 // module egdb.php
 define("EGDB_CORE_00", "EGDB Main Module");

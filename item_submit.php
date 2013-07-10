@@ -35,7 +35,7 @@ $text = "
 			<table border='0' cellspacing='15' width='100%'>
 				<tr>
 					<td>
-					<b>".EGDB_CAT_05."</b>
+					<b>".EGDB_SUBMIT_2."</b>
 					</td>
 					<td>
 					<input class='tbox' size='25' type='text' name='egdb_item_name'/>
@@ -43,7 +43,7 @@ $text = "
 				</tr>
 				<tr>
 					<td valign='top'>
-					<b>".EGDB_CAT_06."</b></td>
+					<b>".EGDB_SUBMIT_3."</b></td>
 					<td>
 					<select name='egdb_item_type' >
 						<option value='default'>Select Type</option>
@@ -62,7 +62,7 @@ $text = "
 				</tr>
 				<tr>
 					<td valign='top'>
-					<b>".EGDB_CAT_08."</b>
+					<b>".EGDB_SUBMIT_4."</b>
 					</td>
 					<td valign='top'>
 					<select name='egdb_item_level' >
@@ -80,7 +80,7 @@ $text = "
 				</tr>
 				<tr>
 					<td valign='top'>
-					<b>".EGDB_CAT_09."</b>
+					<b>".EGDB_SUBMIT_5."</b>
 					</td>
 					<td valign='top'>
 					<input class='tbox' size='25' type='text' name='egdb_mob_name' />
@@ -88,7 +88,7 @@ $text = "
 				</tr>
 				<tr>
 					<td valign='top'>
-					<b>".EGDB_CAT_10."</b>
+					<b>".EGDB_SUBMIT_6."</b>
 					</td>
 					<td valign='top'>
 					<select name='egdb_mob_level' >
@@ -167,7 +167,7 @@ $text = "
 				</tr>
 				<tr>
 					<td valign='top'>
-					<b>".EGDB_CAT_11."</b>
+					<b>".EGDB_SUBMIT_7."</b>
 					</td>
 					<td valign='top'>
 					<input class='tbox' size='25' type='text' name='egdb_mob_sector' />
@@ -175,7 +175,7 @@ $text = "
 				</tr>
 				<tr>
 					<td valign='top'>
-					<b>".EGDB_CAT_12."</b>
+					<b>".EGDB_SUBMIT_8."</b>
 					</td>
 					<td valign='top'>
 					<input class='tbox' size='25' type='text' name='egdb_mob_area' />
@@ -195,7 +195,7 @@ $text = "
 					
 					<div style='margin-left: auto;margin-right: auto;width: 10em;text-align: left;'>
 						<input type='hidden' name='create_item' value='1' />
-						<input class='button' type='submit' value='".EGDB_CAT_03."' />
+						<input class='button' type='submit' value='".EGDB_SUBMIT_9."' />
 					</div>
 					
 					<br />
@@ -204,7 +204,7 @@ $text = "
 		</div>
 	</form>";
 
-$title = EGDB_CAT_04;
+$title = EGDB_SUBMIT_1;
 $ns -> tablerender($title, $text);
 
 require_once(FOOTERF);

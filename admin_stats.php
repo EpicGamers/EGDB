@@ -4,7 +4,7 @@
 |
 |	This file shows information about the db itself and serves as the home page 
 |	for admins. It gives a quick over view of the most recently added items,
-|	older items that should be reverified, and who is the top contributor.
+|	older items that should be reverified, number of entries, and Top contributors.
 |
 |
 |
